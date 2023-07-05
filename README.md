@@ -10,7 +10,7 @@
 - [x] Strict Mode [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/03.strictMode.js)
 - [x] Global This [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/04.globalThis.js)
 - [x] Data Types [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/05.dataTypes.js)
-- [x] Type Conversion [바로가기](http://www.github.com)
+- [x] Type Conversion [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/06.typeConversion.js)
 
 
 ### Operation
