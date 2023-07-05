@@ -27,13 +27,13 @@ console.log(typeof (isClicked + '')); //암시적 형변환
 
 // undefined
 let friend;
-console.log(Number(friend)); //명시적 형변환
-console.log(+friend); //암시적 형변환
+console.log(Number(friend)); //NaN
+console.log(+friend); //NaN
 
 // null
 let bankbook = null;
-console.log(Number(bankbook)); //명시적 형변환
-console.log(+bankbook); //암시적 형변환
+console.log(Number(bankbook)); //0
+console.log(+bankbook); //0
 
 // boolean
 let cutie = false;
@@ -50,11 +50,11 @@ console.log(num / 1); //암시적 형변환
 // numeric string
 let width = '105.3px';
 console.log(width);
-console.log(Number(width)); //명시적 형변환
-console.log(+width); //암시적 형변환
+console.log(Number(width)); //NaN
+console.log(+width); //NaN
 
 let w = window.parseFloat(width); //숫자만 해석하기
-console.log(w);
+console.log(w);//105.3
 
 /* 데이터 → 불리언 ---------------------------------------------------------- */
 
@@ -62,12 +62,12 @@ console.log(w);
 // 위에 나열한 것 이외의 것들
 
 // 명시적 형변환
-console.log(Boolean(friend));
-console.log(Boolean(width));
-console.log(Boolean(0));
-console.log(Boolean('0'));
+console.log(Boolean(friend)); //false
+console.log(Boolean(width)); //true
+console.log(Boolean(0)); //false
+console.log(Boolean('0')); //true
 
 // 암시적 형변환
-console.log(!false); //true
-console.log(!!false); //boolean의 암시적 형변환
+console.log(!false); //느낌표 한개는 not이라는 뜻 그래서 true 가 나온다.
+console.log(!!false); //boolean의 암시적 형변환 false 가 나온다.
 console.log('암시적 형변환 : ' + !true);

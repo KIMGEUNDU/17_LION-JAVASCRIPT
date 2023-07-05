@@ -7,27 +7,29 @@ const number = [10, -4, 6, 101, -90, 10_000];
 //10_000 = 10e3
 
 // ~ 보다 큼 또는 작음 → boolean
-let lessThen = number[0] < number[3];
-console.log(lessThen);
+let lessThen = number[0] < number[3]; //10<101
+console.log(lessThen); //true
 
-let greaterThen = number[0] > number[1];
-console.log(greaterThen);
+let greaterThen = number[0] > number[1]; //10>-4
+console.log(greaterThen); //true
 
 // ~ 보다 크거나 작음 또는 같음 → boolean
-let lessThenAndEqual = number[4] <= number[1];
-let greaterThenAndEqual = number[5] >= number[0];
+let lessThenAndEqual = number[4] <= number[1]; //-90 <= -4
+let greaterThenAndEqual = number[5] >= number[0]; //10000 >= 10
+console.log(lessThenAndEqual); //true
 
 // 동등(등급이나 정도가 같다) → boolean
-let equal = number[0] == number[1];
-console.log(equal);
+let equal = number[0] == number[1]; //10 == -4
+console.log(equal); //false
 
 // 다름(같지 않음) → boolean
-let inequal = number[2] != number[3];
-console.log(inequal);
+let inequal = number[2] != number[3]; //6 != 101
+console.log(inequal); //true
 
 // 동일(똑같다) → boolean
 let same = number[3] !== number[4];
-console.log(same);
+101 !== -9;
+console.log(same); //true
 
 // 문자 비교
 // 사전편집(lexicographical) 순
