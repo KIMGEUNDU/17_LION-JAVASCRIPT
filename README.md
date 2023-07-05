@@ -14,5 +14,8 @@
 
 
 ### Operation
-- [x] Operation (기본연산자) [바로가기](http://www.github.com)
-- [x] Operation (비교연산자) [바로가기](http://www.github.com)
+- [x] Operation (기본연산자) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/07-1.operation.js)
+- [x] Operation (비교연산자) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/07-2.operation.js)
+
+### condition
+- [ ] Condition (조건문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/08.condition.js)
