@@ -18,4 +18,14 @@
 - [x] Operation (비교연산자) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/07-2.operation.js)
 
 ### condition
-- [ ] Condition (조건문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/08.condition.js)
+- [x] Condition (조건문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/08-1.condition.js)
+- [x] Condition (논리 연산자) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/08-2.condition.js)
+- [x] Condition (switch문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/08-3.condition.js)
+- [x] Condition (병합연산자) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/08-4.condition.js)
+
+### loop
+- [x] loop (while문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-1.loop.js)
+- [x] loop (do...while문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-2.loop.js)
+- [] loop (for문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-3.loop.js)
+- [] loop (for~in문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-4.loop.js)
+- [] loop (for~of문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-5.loop.js)
