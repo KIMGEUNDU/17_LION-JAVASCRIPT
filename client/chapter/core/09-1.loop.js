@@ -2,13 +2,20 @@
 /* While Loop      */
 /* --------------- */
 
-// let repeat = 0;
+// 0 부터 9까지 출력하기
+/* let repeat = 0;
+while (repeat < 10) {
+  console.log(repeat);
+  repeat++;
+} */
 
-// while (repeat < 10) {
-//   console.log(repeat);
+//예시문제
+/* let j = 0;
+do {
+  console.log(j);
+  j++;
+} while (j < 3); */
 
-//   repeat++;
-// }
 
 const frontEndDev = [
   'HTML',
@@ -66,7 +73,7 @@ while (k > 0) {
 
 //배열의 깊은 복사 = 참조
 // let copyArray = frontEndDev.slice();  옛날방식
-let copyArray = [...frontEndDev]
+let copyArray = [...frontEndDev];
 
 while (copyArray.length) {
   console.log(copyArray.pop());
