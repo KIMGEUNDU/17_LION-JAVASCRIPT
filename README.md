@@ -26,6 +26,12 @@
 ### loop
 - [x] loop (while문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-1.loop.js)
 - [x] loop (do...while문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-2.loop.js)
-- [] loop (for문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-3.loop.js)
-- [] loop (for~in문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-4.loop.js)
-- [] loop (for~of문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-5.loop.js)
+- [x] loop (for문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-3.loop.js)
+- [x] loop (for~in문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-4.loop.js)
+- [x] loop (for~of문) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/09-5.loop.js)
+
+### function
+- [x] function (함수) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/10-1.function.js)
+- [] function (함수표현식) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/10-2.function.js)
+- [] function (화살표함수) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/10-3.function.js)
+- [] function (재귀와 스택) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/10-4.function.js)
