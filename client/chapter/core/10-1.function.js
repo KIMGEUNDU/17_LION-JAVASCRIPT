@@ -42,7 +42,7 @@ function calcPrice(
 
 // 함수 호출
 const result = calcPrice(1000, 300);
-console.log(result);
+console.log(result); //1300
 
 // 함수 값 반환
 
