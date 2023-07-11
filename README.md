@@ -34,4 +34,10 @@
 - [x] function (함수) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/10-1.function.js)
 - [X] function (함수표현식) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/10-2.function.js)
 - [x] function (화살표함수) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/10-3.function.js)
-- [ ] function (재귀와 스택) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/10-4.functio
+- [ ] function (재귀와 스택) [바로가기]()
+
+### Object
+- [x] Object (객체) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-1.object.js)
+- [x] Object (참조에 의한 객체 복사) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-2.object.js)
+- [ ] Object (가비지 컬렉션) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-3.object.js)
+- [ ] Object (메서드와 this) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-4.object.js)
