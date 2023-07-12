@@ -110,3 +110,21 @@ function cloneDeep(object) {
 // _.cloneDeep(value)
 // 참고: https://lodash.com/docs/4.17.15#cloneDeep
 // CDN : https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
+
+let calculator = {
+  read() {
+    this.a = +prompt('첫번째값을 입력해주세요');
+    this.b = +prompt('두번째값을 입력해주세요');
+  },
+  sum() {
+    console.log(this)
+    return this.a + this.b;
+  },
+  mul() {
+    return this.a * this.b;
+  },
+};
+
+calculator.read();
+console.log(calculator.sum());
+console.log(calculator.mul());

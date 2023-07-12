@@ -39,5 +39,12 @@
 ### Object
 - [x] Object (객체) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-1.object.js)
 - [x] Object (참조에 의한 객체 복사) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-2.object.js)
-- [ ] Object (가비지 컬렉션) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-3.object.js)
-- [ ] Object (메서드와 this) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-4.object.js)
+- [x] Object (가비지 컬렉션) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-3.object.js)
+- [x] Object (메서드와 this) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/11-4.object.js)
+
+### Prototype
+- [x] Prototype (프로토타입의 상속) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/12.prototype.js)
+
+
+### Class
+- [x] Claass (클래스의 기본문법) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/13.class.js)
