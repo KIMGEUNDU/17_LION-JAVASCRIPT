@@ -1,8 +1,13 @@
-function Rabbit() {}
-Rabbit.prototype = {
-  eats: true
-};
+class User {
+  constructor(name) {
+    this.name = name;
+  }
 
-let rabbit = new Rabbit();
+  sayHi() {
+    console.log(this.name);
+  }
+}
 
-console.log( rabbit.eats ); // true
+// 사용법:
+let user = new User('John');
+user.sayHi();

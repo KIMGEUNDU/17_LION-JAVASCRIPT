@@ -47,4 +47,25 @@
 
 
 ### Class
-- [x] Claass (클래스의 기본문법) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/13.class.js)
+- [x] Class (클래스의 기본문법) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/13.class.js)
+
+
+### Closure
+- [x] closure (변수의 유효범위와 클로저) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/14-1.closure.js)
+- [x] closure (클로저 학습) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/14-2.closure.js)
+
+
+### optional chaning
+- [x] optional chaning (옵셔널 체이닝) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/15.optionalchaining.js)
+
+### PrimitiveMethods
+- [x] primitiveMethods(원시 래퍼 객체) [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/16.primitiveMethods.js)
+
+### Number
+- [x] Number [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/17.Number.js)
+
+### String
+- [x] String [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/18.string.js)
+
+### Array
+- [x] Array [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/19.array.js)
