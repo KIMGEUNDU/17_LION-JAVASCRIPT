@@ -69,3 +69,7 @@
 
 ### Array
 - [x] Array [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/19.array.js)
+- [x] ArrayMethod [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/20.arrayMethod.js)
+
+### TryCatch
+- [x] TryCatch [바로가기](https://github.com/KIMGEUNDU/17_LION-JAVASCRIPT/blob/01.core/client/chapter/core/21.tryCatch.js)
