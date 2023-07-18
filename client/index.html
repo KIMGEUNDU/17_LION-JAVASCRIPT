@@ -5,18 +5,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./style.css" />
-  <script src="./chapter/core/21.tryCatch.js" defer></script>
-  <script src="./main.js"></script>
+  <script src="./lib/dom/getNode.js"></script>
+  <script src="./lib/dom/attr.js"></script>
+  <script src="./lib/dom/insert.js"></script>
+  <script src="./lib/dom/css.js"></script>
+  <script src="./chapter/dom/00.practice.js" defer></script>
+  <!-- <script src="./main.js"></script> -->
   <title>범쌤과 함께하는 자바스크립트</title>
 </head>
 
 <body>
-  <h1 class="title">
-    <span class="first">hello</span>
-    <!-- 주석입니다 -->
+  <h1>
+    <span class="first" id="message" data-size="10" data-tab-index="1">hello</span>
     <span class="second">javascript</span>
   </h1>
-  <button>button</button>
+
+  <ul class="todo">
+  </ul>
 </body>
 
 </html>

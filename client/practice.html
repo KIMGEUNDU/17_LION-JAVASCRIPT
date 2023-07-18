@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <script>
+    let div = document.createElement('div')
+    document.body.append(div)
+    div.innerText = '예시'
+
+    div.classList.add('one')
+    div.classList.add('two')
+    div.classList.remove('two')
+    div.classList.toggle('three')
+    div.classList.toggle('three')
+    div.classList.toggle('three')
+    console.log(div.classList.contains('two'))
+
+    let com = getComputedStyle(div)
+
+
+    console.log(com.fontSize)
+    console.log(com.color)
+    console.log(div.className)
+
+
+
+  </script>
+
+</body>
+
+</html>
