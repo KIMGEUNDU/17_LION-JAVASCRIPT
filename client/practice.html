@@ -13,22 +13,21 @@
   <script>
     let div = document.createElement('div')
     document.body.append(div)
-    div.innerText = '예시'
-
-    div.classList.add('one')
-    div.classList.add('two')
-    div.classList.remove('two')
-    div.classList.toggle('three')
-    div.classList.toggle('three')
-    div.classList.toggle('three')
-    console.log(div.classList.contains('two'))
-
-    let com = getComputedStyle(div)
+    div.classList.add = 'notification'
+    div.innerText = 'Hello'
+    div.classList.add = 'welcome'
+    div.style.position = 'absolute'
+    div.style.right = '10px';
+    div.style.top = '10px';
+    div.style.backgroundColor = 'pink'
+    div.style.padding = '10px'
 
 
-    console.log(com.fontSize)
-    console.log(com.color)
-    console.log(div.className)
+    for (let i = 0; i < 10; i++) {
+      setTimeout(() => {
+        div.insertAdjacentText('beforeend', i);
+      }, 1000 * (i + 1));
+    }
 
 
 
