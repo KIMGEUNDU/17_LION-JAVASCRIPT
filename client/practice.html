@@ -11,23 +11,25 @@
 
 
   <script>
+    let button = document.createElement('button')
     let div = document.createElement('div')
+
+    document.body.append(button)
     document.body.append(div)
-    div.classList.add = 'notification'
-    div.innerText = 'Hello'
-    div.classList.add = 'welcome'
-    div.style.position = 'absolute'
-    div.style.right = '10px';
-    div.style.top = '10px';
-    div.style.backgroundColor = 'pink'
-    div.style.padding = '10px'
 
 
-    for (let i = 0; i < 10; i++) {
-      setTimeout(() => {
-        div.insertAdjacentText('beforeend', i);
-      }, 1000 * (i + 1));
+    div.innerText = 'text'
+    button.style.display = 'block'
+    button.style.width = '100px'
+    button.style.height = '50px'
+    button.style.backgroundColor = 'pink'
+
+    function remove() {
+      div.innerText = ''
     }
+
+    button.addEventListener(('click'), remove)
+
 
 
 
