@@ -1,5 +1,7 @@
-import { getNode } from './lib/index.js';
+import { attr, getNode, getNodes } from './lib/index.js';
 
 
 
 getNode()
+getNodes()
+attr()
