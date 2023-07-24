@@ -3,14 +3,11 @@ import { jujeobData } from './data/data.js';
 import {
   shake,
   getNode,
-  addClass,
   showAlert,
   getRandom,
   insertLast,
-  removeClass,
   clearContents,
   isNumericString,
-  toggleClass,
   copy,
 } from './lib/index.js';
 
@@ -76,12 +73,14 @@ function handleSubmit(e) {
 
 // if(state){  ...logic }
 
+let start = false;
+
 function handleCopy() {
   const text = resultArea.textContent;
 
-  // copy(text).then(() => {
-  //   showAlert('.alert-success', '클립보드 복사 완료!');
-  // });
+  copy(text).then(() => {
+    showAlert('.alert-success', '클립보드 복사 완료!');
+  });
 }
 
 submit.addEventListener('click', handleSubmit);
