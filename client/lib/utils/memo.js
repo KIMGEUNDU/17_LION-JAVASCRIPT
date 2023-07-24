@@ -19,5 +19,6 @@ memo('cube', () => getNode('#cube'));
 memo('cube', () => 123);
 
 console.log(memo('cube'));
+console.log(cache);
 
 // 객체를 만들어서 key:value 쌍으로 저장
