@@ -1,10 +1,12 @@
 import { attr } from '../dom/attr.js';
 import { getNode } from '../dom/getNode.js';
-import { gsap } from '../../../node_modules/gsap/index.js';
+// import { gsap } from '../../../node_modules/gsap/index.js';
 
 const cube = getNode('#cube');
 
 let random;
+
+/* global gsap */
 gsap.to(cube, {
   duration: 1,
   rotationX: 100,
