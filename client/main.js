@@ -1,3 +1,1 @@
-import { diceAnimation } from './lib/index.js';
-
-diceAnimation();
+import {} from './lib/index.js';
