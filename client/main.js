@@ -6,6 +6,7 @@ import {
   getNode,
   getNodes,
   insertLast,
+  memo,
 } from './lib/index.js';
 
 // [phase-1] 주사위 굴리기
@@ -28,7 +29,7 @@ import {
 // 4. 스크롤 위치 내리기
 // 5. 함수 분리
 
-//[Phase=3] 초기화 시키기
+// [phase-3] 초기화 시키기
 // 1. 아이템 지우기
 
 // 배열 구조 분해 할당
@@ -37,7 +38,7 @@ const [startButton, recordButton, resetButton] = getNodes(
   '.buttonGroup > button'
 );
 const recordListWrapper = getNode('.recordListWrapper');
-const tbody = getNode('.recordList tbody');
+memo('@tbody', () => getNode('.recordList tbody')); // setter
 
 // 진짜 진짜 쉬운 과제
 
@@ -65,12 +66,14 @@ function createItem(value) {
 
 function renderRecordItem() {
   // 큐브의 data-dice 값 가져오기
-  const diceValue = +attr('#cube', 'data-dice');
+  const diceValue = +attr(memo('cube'), 'data-dice');
 
-  insertLast(tbody, createItem(diceValue));
+  insertLast(memo('@tbody'), createItem(diceValue));
+
+  endScroll(recordListWrapper);
 }
 
-const handleRollingDice = ((e) => {
+const handleRollingDice = (() => {
   let isClicked = false;
   let stopAnimation;
 
@@ -97,10 +100,7 @@ const handleRollingDice = ((e) => {
 
 function handleRecord() {
   recordListWrapper.hidden = false;
-
   renderRecordItem();
-
-  endScroll(recordListWrapper);
 }
 
 function handleReset() {
@@ -108,7 +108,8 @@ function handleReset() {
   recordButton.disabled = true;
   resetButton.disabled = true;
 
-  clearContents(tbody);
+  clearContents(memo('@tbody'));
+
   count = 0;
   total = 0;
 }
