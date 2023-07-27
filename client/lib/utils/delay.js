@@ -33,34 +33,34 @@ const second = getNode('.second');
 //   errorMessage: '알 수 없는 오류가 발생했습니다.',
 // };
 
-// function delayP(options) {
-//   let config = { ...defaultOptions };
+export function delayP(options) {
+  let config = { ...defaultOptions };
 
-//   //파라미터가 숫자만 들어왔을 때는 자동으로 timeout에 값 할당하기
-//   if (typeof options === 'number') {
-//     config.timeout = options;
-//   }
+  //파라미터가 숫자만 들어왔을 때는 자동으로 timeout에 값 할당하기
+  if (typeof options === 'number') {
+    config.timeout = options;
+  }
 
-//   if (typeof options === 'boolean') {
-//     config.shouldReject = options;
-//   }
+  if (typeof options === 'boolean') {
+    config.shouldReject = options;
+  }
 
-//   //파라미터가 객체로 들어왔을 때 기존의 defaultOptions의 값을 options로 병합하기
-//   if (typeof options === 'object') {
-//     config = { ...defaultOptions, ...options };
-//   }
+  //파라미터가 객체로 들어왔을 때 기존의 defaultOptions의 값을 options로 병합하기
+  if (typeof options === 'object') {
+    config = { ...defaultOptions, ...options };
+  }
 
-//   const { shouldReject, timeout, data, errorMessage } = config;
-//   return new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//       if (!shouldReject) {
-//         resolve(data);
-//       } else {
-//         reject({ message: errorMessage });
-//       }
-//     }, timeout);
-//   });
-// }
+  const { shouldReject, timeout, data, errorMessage } = config;
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (!shouldReject) {
+        resolve(data);
+      } else {
+        reject({ message: errorMessage });
+      }
+    }, timeout);
+  });
+}
 
 // delayP(false)
 //   .then((res) => {
